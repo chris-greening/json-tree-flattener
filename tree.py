@@ -1,9 +1,4 @@
-from typing import List, Dict, Any
-from copy import deepcopy
-
 from node import Node
-
-JSONDict = Dict[str, Any]
 
 class Tree:
     """Flatten a nested dictionary of JSON-data as much as possible"""

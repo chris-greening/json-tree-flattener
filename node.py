@@ -1,3 +1,10 @@
+from typing import List, Dict, Any
+from copy import deepcopy
+
+from node import Node
+
+JSONDict = Dict[str, Any]
+
 class Node:
     leaf_nodes = []
     def __init__(self, json_data: JSONDict, linked_list: List['Node'] = [], prior_key: str = ''):
