@@ -1,12 +1,11 @@
 from __future__ import annotations
 
+from typing import Dict, Any
 from collections import deque
-from typing import List, Dict, Any, Union
 from copy import deepcopy
 from tree import JsonTree
 
 JSONDict = Dict[str, Any]
-
 
 class JsonFlattener:
     """Flatten an input JSON dictionary to keys based on leaf node key names"""
