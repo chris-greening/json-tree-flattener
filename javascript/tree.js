@@ -1,7 +1,15 @@
 let Node = require('./node.js')
 
 class Tree {
-    constructor(json_dict) {
-        this.json_dict = json_dict;
+    constructor(jsonDict) {
+        this.jsonDict = jsonDict;
+        this.mapTree(this.jsonDict);
+    }
+
+    mapTree(jsonDict) {
+        this.leafNodes = [];
+        this.rootNode = Node(jsonData, tree=this);
     }
 }
+
+module.exports = Tree
