@@ -3,7 +3,7 @@ import pprint
 
 from flat_json import JSONDict
 
-with open('test.json', 'r') as injson:
+with open(r'..\test.json', 'r') as injson:
     json_str = injson.read()[3:]
     json_dict = json.loads(json_str)
 
