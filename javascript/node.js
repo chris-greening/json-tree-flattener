@@ -7,6 +7,13 @@ class Node {
 
         this.dtype = _determineObjectType();
 
+        if (this.isLeaf) {
+
+        } else {
+            this._getEdges()
+        }
+
+
     }
 
     _determineObjectType() {
@@ -25,6 +32,17 @@ class Node {
         return ((this.dtype != 'object') && (this.dtype != 'array'));
     }
 
+    _getEdges() {
+        //Get edges to other nodes in tree recursively
+        // var iterArr = ;
+    }
+
+    _getIterArr() {
+        //Return an array that we will iterate over determined by this.dtype
+        if (this.dtype == 'array') {
+
+        }
+    }
 }
 
 module.exports = Node;
