@@ -4,7 +4,6 @@ let Tree = require('./tree.js')
 class JsonTreeFlattener {
     constructor(jsonDict){
         this.jsonDict = jsonDict;
-        this.test = test;
     }
 }
 
