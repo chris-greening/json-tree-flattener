@@ -1,10 +1,12 @@
-let json_dict =  require('../test.json');
+let jsonDict =  require('../test.json');
+let Tree = require('./tree.js')
 
 class JsonTreeFlattener {
-    constructor(name){
-        this.name = name;
+    constructor(jsonDict){
+        this.jsonDict = jsonDict;
+        this.test = test;
     }
 }
 
-const test = new JsonTreeFlattener()
+const test = new JsonTreeFlattener(jsonDict);
 
