@@ -9,7 +9,7 @@ class Tree {
     _mapTree(jsonDict) {
         //Get edges to all Node's inside the Tree
         this.leafNodes = [];
-        this.rootNode = Node(jsonData, tree=this);
+        this.rootNode = new Node(jsonDict, this);
     }
 }
 
