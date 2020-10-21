@@ -1,4 +1,2 @@
 # json-tree-flattener
-Object-oriented, recursive JSON tree flattener
-
-WORK IN PROGRESS
+Object-oriented, recursive JSON tree flattener implemented in both Python and JavaScript
